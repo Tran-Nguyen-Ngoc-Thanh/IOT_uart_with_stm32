@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"bt_2_stm32f205\startup_stm32f205xx.o"
+"bt_2_stm32f205\main.o"
+"bt_2_stm32f205\stm32f2xx_it.o"
+"bt_2_stm32f205\stm32f2xx_hal_msp.o"
+"bt_2_stm32f205\stm32f2xx_hal_uart.o"
+"bt_2_stm32f205\stm32f2xx_hal.o"
+"bt_2_stm32f205\stm32f2xx_hal_rcc.o"
+"bt_2_stm32f205\stm32f2xx_hal_rcc_ex.o"
+"bt_2_stm32f205\stm32f2xx_hal_cortex.o"
+"bt_2_stm32f205\stm32f2xx_hal_flash.o"
+"bt_2_stm32f205\stm32f2xx_hal_flash_ex.o"
+"bt_2_stm32f205\stm32f2xx_hal_pwr.o"
+"bt_2_stm32f205\stm32f2xx_hal_pwr_ex.o"
+"bt_2_stm32f205\stm32f2xx_hal_gpio.o"
+"bt_2_stm32f205\stm32f2xx_hal_dma.o"
+"bt_2_stm32f205\stm32f2xx_hal_dma_ex.o"
+"bt_2_stm32f205\stm32f2xx_hal_exti.o"
+"bt_2_stm32f205\system_stm32f2xx.o"
+--strict --scatter "BT_2_stm32f205\BT_2_stm32f205.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "BT_2_stm32f205.map" -o BT_2_stm32f205\BT_2_stm32f205.axf
