@@ -9,3 +9,6 @@ Step 3, load code into STM32F205VCT or use Terminal software or other software t
 Step 4, press the LED on/off button on the monitor to turn the LED on the stm32 module on/off.
 
 Step 5, press the RUN or STOP button on the stm32 module to turn the Led RUN or STOP on monitor.
+
+
+📌📌 The program I wrote is named BT_2_stm32f205 and BT_2_vs, you can refer to the program my teacher wrote with the name BT_2_vs_thay_sua 📌📌
