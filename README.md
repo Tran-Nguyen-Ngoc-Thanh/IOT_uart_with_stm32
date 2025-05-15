@@ -5,7 +5,7 @@
 - [Hướng dẫn sử dụng](#hướng-dẫn-sử-dụng)
 - [Thư viện cần có](#thư-viện-cần-có)
   - [Thêm bằng Nuget](#thêm-bằng-Nuget)
-  - [Thêm bằng .NET CLI](#thêm-bằng-.NET-CLI)
+  - [Thêm bằng NET CLI](#thêm-bằng-NET-CLI)
 - [Tài liệu tham khảo](#tài-liệu-tham-khảo)
 
 # Giới thiệu UART
@@ -66,7 +66,7 @@ System.IO.Ports
 ```c
 using System.IO.Ports;
 ```
-## Thêm bằng .NET CLI
+## Thêm bằng NET CLI
 ```c
 dotnet add package System.IO.Ports
 ```
