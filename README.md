@@ -66,7 +66,7 @@ System.IO.Ports
 ```c
 using System.IO.Ports;
 ```
-## Thêm bằng .Net CLI
+## Thêm bằng .NET CLI
 ```c
 dotnet add package System.IO.Ports
 ```
